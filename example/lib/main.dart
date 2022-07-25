@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:scroll_cool_widget/button_position.dart';
 import 'package:scroll_cool_widget/scroll_cool_widget.dart';
 
 void main() {
@@ -35,7 +36,10 @@ class _HomeState extends State<Home> {
         countOfCache: 1,
         height: (MediaQuery.of(context).size.height),
         width: (MediaQuery.of(context).size.width),
-        scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.vertical,
+        buttonPosition: ButtonPosition.topLeft,
+        buttonColor: Colors.blueAccent,
+        buttonIconColor: Colors.white,
         createWidget: (index, width, height) {
           return Container(
             width: width,
