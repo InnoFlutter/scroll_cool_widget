@@ -5,6 +5,7 @@ class ScrollCoolWidget extends StatefulWidget {
   final int countOfCache;
   final double width;
   final double height;
+  final Axis scrollDirection;
 
   const ScrollCoolWidget({
     Key? key,
@@ -12,6 +13,7 @@ class ScrollCoolWidget extends StatefulWidget {
     required this.countOfCache,
     required this.width,
     required this.height,
+    this.scrollDirection = Axis.vertical,
   }) : super(key: key);
 
   @override
@@ -33,7 +35,7 @@ class _ScrollCoolWidgetState extends State<ScrollCoolWidget> {
 
     return PageView(
       controller: _controller,
-      scrollDirection: Axis.vertical,
+      scrollDirection: widget.scrollDirection,
       children: cache,
       onPageChanged: (index) {
         setState(() {
