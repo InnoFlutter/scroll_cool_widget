@@ -2,7 +2,7 @@
 
 |Vertical scroll|Horizontal scroll|
 |---|---|
-|![vertical](./img/vertical.gif)|![horizontal](./img/horizontal.gif)|
+|![vertical](https://raw.githubusercontent.com/InnoFlutter/scroll_cool_widget/main/img/vertical.gif)|![horizontal](https://raw.githubusercontent.com/InnoFlutter/scroll_cool_widget/main/img/horizontal.gif)|
 
 ## Getting started
 
