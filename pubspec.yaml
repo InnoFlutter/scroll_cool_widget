@@ -1,6 +1,6 @@
 name: scroll_cool_widget
 description: Widget for scrolling plugins as pages.
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/InnoFlutter/scroll_cool_widget
 
 environment:
